@@ -25,6 +25,7 @@ public class UserController {
     public void postUsers() {
         User user = new User("omkar","dixit","abc");
         userRepositiory.save(user);
+        
     }
 
 
