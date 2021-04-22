@@ -1,10 +1,22 @@
 com/example/mentormenteewebsite/models/UserRepositiory.java
  com.example.mentormenteewebsite.models.UserRepositiory
+com/example/mentormenteewebsite/models/UserType.java
+ com.example.mentormenteewebsite.models.UserType
+com/example/mentormenteewebsite/models/Experties.java
+ com.example.mentormenteewebsite.models.Experties
 com/example/mentormenteewebsite/models/User.java
  com.example.mentormenteewebsite.models.User
+com/example/mentormenteewebsite/models/ContactDetails.java
+ com.example.mentormenteewebsite.models.ContactDetails
 com/example/mentormenteewebsite/controller/UserController.java
  com.example.mentormenteewebsite.controller.UserController
+com/example/mentormenteewebsite/models/MentorType.java
+ com.example.mentormenteewebsite.models.MentorType
 com/example/mentormenteewebsite/MentorMenteeWebsiteApplication.java
  com.example.mentormenteewebsite.MentorMenteeWebsiteApplication
+com/example/mentormenteewebsite/models/MentorRepository.java
+ com.example.mentormenteewebsite.models.MentorRepository
+com/example/mentormenteewebsite/controller/ProfileManagement.java
+ com.example.mentormenteewebsite.controller.ProfileManagement
 com/example/mentormenteewebsite/models/Mentor.java
  com.example.mentormenteewebsite.models.Mentor

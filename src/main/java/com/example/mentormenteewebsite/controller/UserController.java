@@ -23,8 +23,6 @@ public class UserController {
 
     @PostMapping("/users")
     public void postUsers() {
-        User user = new User("omkar","dixit","abc");
-        userRepositiory.save(user);
 
     }
 

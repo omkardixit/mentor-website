@@ -5,27 +5,19 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "User")
 public class User {
-    @Id
-    private String id;
-
     private String name;
+
+    @Id
     private String email;
+    private ContactDetails contactDetails;
 
-    public User() {
-    }
-
-    public User(String id, String name, String email) {
-        this.id = id;
+    public User(String name, String email, ContactDetails contactDetails) {
         this.name = name;
         this.email = email;
+        this.contactDetails = contactDetails;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+    public User() {
     }
 
     public String getName() {
@@ -42,5 +34,22 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public ContactDetails getContactDetails() {
+        return contactDetails;
+    }
+
+    public void setContactDetails(ContactDetails contactDetails) {
+        this.contactDetails = contactDetails;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", contactDetails=" + contactDetails +
+                '}';
     }
 }
