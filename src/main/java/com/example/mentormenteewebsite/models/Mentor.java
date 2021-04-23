@@ -1,15 +1,33 @@
 package com.example.mentormenteewebsite.models;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Mentor")
 public class Mentor {
 
+    @Id
+    private String email;
     private User user;
     private String description;
     private Experties experties;
 
     public Mentor() {
+    }
+
+    public Mentor(String email, User user, String description, Experties experties) {
+        this.email = email;
+        this.user = user;
+        this.description = description;
+        this.experties = experties;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public User getUser() {
@@ -39,7 +57,8 @@ public class Mentor {
     @Override
     public String toString() {
         return "Mentor{" +
-                "user=" + user +
+                "email='" + email + '\'' +
+                ", user=" + user +
                 ", description='" + description + '\'' +
                 ", experties=" + experties +
                 '}';
