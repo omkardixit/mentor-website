@@ -5,29 +5,28 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Arrays;
 import java.util.List;
 
-@JsonFormat(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY)
 public class Experties {
-    private String[] experties;
+    private List<String> experties;
 
     public Experties() {
+    }
+
+    public Experties(List<String> experties) {
+        this.experties = experties;
     }
 
     @Override
     public String toString() {
         return "Experties{" +
-                "experties=" + Arrays.toString(experties) +
+                "experties=" + experties +
                 '}';
     }
 
-    public String[] getExperties() {
+    public List<String> getExperties() {
         return experties;
     }
 
-    public void setExperties(String[] experties) {
-        this.experties = experties;
-    }
-
-    public Experties(String[] experties) {
+    public void setExperties(List<String> experties) {
         this.experties = experties;
     }
 }

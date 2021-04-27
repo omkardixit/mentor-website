@@ -1,7 +1,7 @@
 package com.example.mentormenteewebsite.controller;
 
 import com.example.mentormenteewebsite.models.User;
-import com.example.mentormenteewebsite.models.UserRepositiory;
+import com.example.mentormenteewebsite.database.UserRepositiory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

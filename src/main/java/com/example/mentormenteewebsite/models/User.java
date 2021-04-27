@@ -9,12 +9,15 @@ public class User {
 
     private ContactDetails contactDetails;
 
-    public User(String name,ContactDetails contactDetails) {
-        this.name = name;
-        this.contactDetails = contactDetails;
-    }
+    private ProfilePhoto profilePhoto;
 
     public User() {
+    }
+
+    public User(String name, ContactDetails contactDetails, ProfilePhoto profilePhoto) {
+        this.name = name;
+        this.contactDetails = contactDetails;
+        this.profilePhoto = profilePhoto;
     }
 
     public String getName() {
@@ -33,11 +36,11 @@ public class User {
         this.contactDetails = contactDetails;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", contactDetails=" + contactDetails +
-                '}';
+    public ProfilePhoto getProfilePhoto() {
+        return profilePhoto;
+    }
+
+    public void setProfilePhoto(ProfilePhoto profilePhoto) {
+        this.profilePhoto = profilePhoto;
     }
 }

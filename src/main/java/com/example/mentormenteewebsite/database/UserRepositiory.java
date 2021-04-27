@@ -1,5 +1,6 @@
-package com.example.mentormenteewebsite.models;
+package com.example.mentormenteewebsite.database;
 
+import com.example.mentormenteewebsite.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

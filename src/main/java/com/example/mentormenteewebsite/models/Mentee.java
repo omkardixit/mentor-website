@@ -5,25 +5,22 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
-@Document(collection = "Mentor")
-public class Mentor {
-
+@Document(collection = "Mentee")
+public class Mentee {
     @Id
     private String email;
     private User user;
     private String description;
-    private List<String> experties;
+    private List<String> interests;
 
-    public Mentor() {
-    }
 
     @Override
     public String toString() {
-        return "Mentor{" +
+        return "Mentee{" +
                 "email='" + email + '\'' +
                 ", user=" + user +
                 ", description='" + description + '\'' +
-                ", experties=" + experties +
+                ", interests=" + interests +
                 '}';
     }
 
@@ -51,18 +48,21 @@ public class Mentor {
         this.description = description;
     }
 
-    public List<String> getExperties() {
-        return experties;
+    public List<String> getInterests() {
+        return interests;
     }
 
-    public void setExperties(List<String> experties) {
-        this.experties = experties;
+    public void setInterests(List<String> interests) {
+        this.interests = interests;
     }
 
-    public Mentor(String email, User user, String description, List<String> experties) {
+    public Mentee(String email, User user, String description, List<String> interests) {
         this.email = email;
         this.user = user;
         this.description = description;
-        this.experties = experties;
+        this.interests = interests;
+    }
+
+    public Mentee() {
     }
 }
