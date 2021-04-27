@@ -26,11 +26,13 @@ com/example/mentormenteewebsite/database/MenteeRepository.java
  com.example.mentormenteewebsite.database.MenteeRepository
 com/example/mentormenteewebsite/models/ProfilePhoto.java
  com.example.mentormenteewebsite.models.ProfilePhoto
-com/example/mentormenteewebsite/database/MentorRepository.java
- com.example.mentormenteewebsite.database.MentorRepository
-com/example/mentormenteewebsite/controller/UserController.java
- com.example.mentormenteewebsite.controller.UserController
-com/example/mentormenteewebsite/controller/ProfileManagement.java
- com.example.mentormenteewebsite.controller.ProfileManagement
 com/example/mentormenteewebsite/exceptionHandling/ExceptionResponse.java
  com.example.mentormenteewebsite.exceptionHandling.ExceptionResponse
+com/example/mentormenteewebsite/controller/UserController.java
+ com.example.mentormenteewebsite.controller.UserController
+com/example/mentormenteewebsite/service/ProfileManagementService.java
+ com.example.mentormenteewebsite.service.ProfileManagementService
+com/example/mentormenteewebsite/database/MentorRepository.java
+ com.example.mentormenteewebsite.database.MentorRepository
+com/example/mentormenteewebsite/controller/ProfileManagement.java
+ com.example.mentormenteewebsite.controller.ProfileManagement

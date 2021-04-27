@@ -1,2 +1,4 @@
 com/example/mentormenteewebsite/MentorMenteeWebsiteApplicationTests.java
  com.example.mentormenteewebsite.MentorMenteeWebsiteApplicationTests
+controller/ProfileManagementTest.java
+ controller.ProfileManagementTest

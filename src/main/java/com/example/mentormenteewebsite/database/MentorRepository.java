@@ -9,4 +9,5 @@ public interface MentorRepository extends MongoRepository<Mentor,String> {
     List<Mentor> findAll();
     Mentor save(Mentor mentor);
     Mentor insert(Mentor mentor);
+    Mentor update(Mentor mentor);
 }
