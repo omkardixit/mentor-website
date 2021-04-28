@@ -46,7 +46,7 @@ public class ProfileManagement {
     @RequestMapping(value = "/mentor", method = RequestMethod.PATCH, consumes = "application/json")
     @ResponseBody
     public ResponseEntity updateMentor(@RequestBody Mentor mentor) {
-        profileManagementService.update(mentor);
+        profileManagementService.patch(mentor);
         String responseMessage = "Updated " + UserType.Mentor + " successfully";
         PostUserResponse postUserResponse = new PostUserResponse(responseMessage);
         return ResponseEntity.ok(postUserResponse);
