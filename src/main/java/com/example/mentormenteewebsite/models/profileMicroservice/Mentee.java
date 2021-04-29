@@ -1,4 +1,4 @@
-package com.example.mentormenteewebsite.models;
+package com.example.mentormenteewebsite.models.profileMicroservice;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

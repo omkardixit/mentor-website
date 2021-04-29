@@ -1,7 +1,6 @@
-package com.example.mentormenteewebsite.database;
+package com.example.mentormenteewebsite.database.profileMicroservice;
 
-import com.example.mentormenteewebsite.models.Mentee;
-import com.example.mentormenteewebsite.models.Mentor;
+import com.example.mentormenteewebsite.models.profileMicroservice.Mentee;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

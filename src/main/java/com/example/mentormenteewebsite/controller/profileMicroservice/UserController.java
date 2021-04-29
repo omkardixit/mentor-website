@@ -1,7 +1,7 @@
-package com.example.mentormenteewebsite.controller;
+package com.example.mentormenteewebsite.controller.profileMicroservice;
 
-import com.example.mentormenteewebsite.models.User;
-import com.example.mentormenteewebsite.database.UserRepositiory;
+import com.example.mentormenteewebsite.models.profileMicroservice.User;
+import com.example.mentormenteewebsite.database.profileMicroservice.UserRepositiory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

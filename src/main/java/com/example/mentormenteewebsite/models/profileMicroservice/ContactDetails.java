@@ -1,4 +1,4 @@
-package com.example.mentormenteewebsite.models;
+package com.example.mentormenteewebsite.models.profileMicroservice;
 
 public class ContactDetails {
     private String phoneNumber;

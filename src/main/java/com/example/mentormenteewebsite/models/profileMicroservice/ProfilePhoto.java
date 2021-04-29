@@ -1,4 +1,4 @@
-package com.example.mentormenteewebsite.models;
+package com.example.mentormenteewebsite.models.profileMicroservice;
 
 import org.bson.types.Binary;
 import org.springframework.data.annotation.Id;

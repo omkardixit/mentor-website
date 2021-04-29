@@ -1,4 +1,4 @@
-package com.example.mentormenteewebsite.models;
+package com.example.mentormenteewebsite.models.profileMicroservice;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

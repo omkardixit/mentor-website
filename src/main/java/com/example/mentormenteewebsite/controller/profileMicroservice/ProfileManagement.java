@@ -1,9 +1,9 @@
-package com.example.mentormenteewebsite.controller;
+package com.example.mentormenteewebsite.controller.profileMicroservice;
 
-import com.example.mentormenteewebsite.models.Mentee;
-import com.example.mentormenteewebsite.models.Mentor;
-import com.example.mentormenteewebsite.models.PostUserResponse;
-import com.example.mentormenteewebsite.models.UserType;
+import com.example.mentormenteewebsite.models.profileMicroservice.Mentee;
+import com.example.mentormenteewebsite.models.profileMicroservice.Mentor;
+import com.example.mentormenteewebsite.models.profileMicroservice.PostUserResponse;
+import com.example.mentormenteewebsite.models.profileMicroservice.UserType;
 import com.example.mentormenteewebsite.service.ProfileManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

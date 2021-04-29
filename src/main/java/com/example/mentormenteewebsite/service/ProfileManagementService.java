@@ -1,9 +1,9 @@
 package com.example.mentormenteewebsite.service;
 
-import com.example.mentormenteewebsite.database.MenteeRepository;
-import com.example.mentormenteewebsite.database.MentorRepository;
-import com.example.mentormenteewebsite.models.Mentee;
-import com.example.mentormenteewebsite.models.Mentor;
+import com.example.mentormenteewebsite.database.profileMicroservice.MenteeRepository;
+import com.example.mentormenteewebsite.database.profileMicroservice.MentorRepository;
+import com.example.mentormenteewebsite.models.profileMicroservice.Mentee;
+import com.example.mentormenteewebsite.models.profileMicroservice.Mentor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
 import org.springframework.data.mongodb.core.MongoTemplate;

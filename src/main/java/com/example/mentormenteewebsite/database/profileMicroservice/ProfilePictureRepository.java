@@ -1,6 +1,6 @@
-package com.example.mentormenteewebsite.database;
+package com.example.mentormenteewebsite.database.profileMicroservice;
 
-import com.example.mentormenteewebsite.models.ProfilePhoto;
+import com.example.mentormenteewebsite.models.profileMicroservice.ProfilePhoto;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ProfilePictureRepository extends MongoRepository<ProfilePhoto, String> {
