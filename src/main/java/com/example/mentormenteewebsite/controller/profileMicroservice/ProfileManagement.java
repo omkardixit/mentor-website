@@ -1,5 +1,6 @@
 package com.example.mentormenteewebsite.controller.profileMicroservice;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import com.example.mentormenteewebsite.models.profileMicroservice.Mentee;
 import com.example.mentormenteewebsite.models.profileMicroservice.Mentor;
 import com.example.mentormenteewebsite.models.profileMicroservice.PostUserResponse;
@@ -15,6 +16,8 @@ import java.util.List;
 @RequestMapping("/profile")
 public class ProfileManagement {
 
+    private static final Logger logger = LogManager.getLogger(ProfileManagement.class);
+
     @Autowired
     ProfileManagementService profileManagementService;
 
@@ -23,6 +26,7 @@ public class ProfileManagement {
     public ResponseEntity postMentor(@RequestBody Mentor mentor) {
         profileManagementService.insertMentor(mentor);
         String responseMessage = "Created " + UserType.Mentor + " successfully";
+        logger.info(responseMessage);
         PostUserResponse postUserResponse = new PostUserResponse(responseMessage);
         return ResponseEntity.ok(postUserResponse);
     }

@@ -33,6 +33,8 @@ com/example/mentormenteewebsite/models/profileMicroservice/Mentee.java
  com.example.mentormenteewebsite.models.profileMicroservice.Mentee
 com/example/mentormenteewebsite/database/profileMicroservice/MentorRepository.java
  com.example.mentormenteewebsite.database.profileMicroservice.MentorRepository
+com/example/mentormenteewebsite/SwaggerConfig.java
+ com.example.mentormenteewebsite.SwaggerConfig
 com/example/mentormenteewebsite/service/ProfileManagementService.java
  com.example.mentormenteewebsite.service.ProfileManagementService
 com/example/mentormenteewebsite/database/profileMicroservice/UserRepositiory.java

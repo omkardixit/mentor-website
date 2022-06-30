@@ -9,6 +9,7 @@ public class MentorMenteeWebsiteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MentorMenteeWebsiteApplication.class, args);
+
 	}
 
 }
